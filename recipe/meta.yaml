@@ -1,5 +1,5 @@
 {% set name = "macchina" %}
-{% set version = "6.2.1" %}
+{% set version = "6.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Macchina-CLI/macchina/archive/v{{ version }}.tar.gz
-  sha256: 87a38bde067fadd96615899d6a8b9efdb238a4bd3859008be47b3e4c2a02c607
+  sha256: 8483a427b70f0bfd89ff0fd5e05f9a622d9d8d84cce9cf8b390af7ee918a73f5
 
 build:
   number: 0
